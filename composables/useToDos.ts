@@ -4,8 +4,8 @@ import { ToDo, TodoStatus } from '~/types/ToDo'
 
 export const useTodos = () => {
   const allTodos = ref<ToDo[]>([
-    { id: nanoid(), text: 'Do somethig', status: 'doing', updatedTimestamp: new Date().toISOString() },
-    { id: nanoid(), text: 'Do somethig else', status: 'doing', updatedTimestamp: new Date().toISOString() },
+    { id: nanoid(), text: 'Do something', status: 'doing', updatedTimestamp: new Date().toISOString() },
+    { id: nanoid(), text: 'Do something else', status: 'doing', updatedTimestamp: new Date().toISOString() },
     { id: nanoid(), text: 'Do another thing', status: 'doing', updatedTimestamp: new Date().toISOString() }
   ])
 
